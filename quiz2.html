@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form </title>
+
+</head>
+
+<body>
+    <h1> Student Registration Form </h1>
+    <!--form start from here -->
+    <form action="Post">
+        <div>
+            <!--name field -->
+            <label for="name">Enter Your Name</label>
+            <p>
+                <input type="text" id="name" placeholder="Enter Name">
+            </p>
+        </div>
+        <div>
+            <!-- address field -->
+            <label for="address">Enter Your Address </label>
+            <p>
+                <textarea id="address" name="address" placeholder="Enter Address"></textarea>
+            </p>
+        </div>
+        <div>
+            <!-- age field -->
+            <label for="age">Enter Your Age </label>
+            <p>
+                <input type="number" id="age" placeholder="Enter Age">
+            </p>
+        </div>
+        <div>
+            <!-- gender field -->
+            <label for="gender"> Select Gender </label>
+            <p>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female">
+
+            </p>
+        </div>
+        <div>
+            <!-- city filed -->
+            <label for="city">Enter Your City</label>
+            <p>
+                <input type="text" id="city" placeholder="Enetr City">
+            </p>
+        </div>
+        <!-- submission button -->
+        <button type="submit">Submit</button>
+
+
+    </form>
+</body>
+
+</html>
